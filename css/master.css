@@ -1,0 +1,35 @@
+#slider {
+    position: relative;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+}
+#slider ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+}
+
+#prev{
+    position: absolute;
+    top: 35%;
+    opacity: 0.8;
+    background-color:rgba(0,0,0,0);
+    border-style:none;
+
+}
+
+#next{
+    position: absolute;
+    top: 35%;
+    right:0%;
+    opacity: 0.8;
+    background-color:rgba(0,0,0,0);
+    border-style:none;
+}
+
+.fa-arrow-circle-left, .fa-arrow-circle-right{
+    font-size: 40px;
+    color:#A9A9A9;
+}
